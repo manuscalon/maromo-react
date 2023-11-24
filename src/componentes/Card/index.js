@@ -4,9 +4,8 @@ function Card(){
     return(
         <div>
             <p>Componentes:</p>
-            <p>Facilit mantes partes menores funcionando </p>
-            <p>Voce pode reutiliza-los, ou seja, reaproveitamento</p>
-
+            <p>Facilita manter partes menores funcionando.</p>
+            <p>Você pode reutilizá-los, ou seja, reaproveitamento.</p>
         </div>
     );
 }

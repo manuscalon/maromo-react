@@ -1,17 +1,16 @@
 import React from "react";
-import Header from "./componentes/Header";
-import Footer from "./componentes/Footer";
-
 import './App.css';
-import HomePage from "./componentes/Homepage";
+import Header from "./componentes/Header/index";
+import Footer from "./componentes/Footer/index";
+import HomePage from "./componentes/HomePage/index";
 
-function App(){
-  return(
-  <div className="App">
-  <Header />
-  <Footer />
-  <HomePage />
-  </div>
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <HomePage />
+      <Footer />
+    </div>
   );
 };
 export default App;
